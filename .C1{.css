@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 0%;
+    height:auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container div{
+    background-color:chartreuse;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+
+
